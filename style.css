@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e91e63;
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #00bcd4;
+    padding: 25px;
+    border-radius: 1rem;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-family: 'Encode Sans SC', sans-serif;
+}
+.grid{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.square{
+    width: 170px;
+    background-color: #008ba3;
+    border-radius: 0.5rem;
+    height: 170px;
+}
+.mole{
+    background-color: #62efff;
+    background-image: url(/mole.png);
+    background-size: cover;
+}
